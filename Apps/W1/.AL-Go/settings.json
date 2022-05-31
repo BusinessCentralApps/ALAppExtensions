@@ -91,5 +91,6 @@
                         "VATGroupManagement\\test",
                         "WorldPayPaymentsStandard\\test"
                     ],
-    "enablePerTenantExtensionCop":  false
+    "enablePerTenantExtensionCop":  false,
+    "memoryLimit": "16G"
 }

@@ -1,6 +1,7 @@
 ﻿{
     "country":  "base",
     "appFolders":  [
+                       "..\\..\\Modules\\System",                       
                        "AMCBanking365Fundamentals\\app",
                        "AnonymizedDataSharing\\app",
                        "APIV1\\app",
@@ -48,6 +49,13 @@
                        "WorldPayPaymentsStandard\\app"
                    ],
     "testFolders":  [
+                        "..\\..\\Modules\\DevTools\\TestFramework\\TestLibraries\\Any",
+                        "..\\..\\Modules\\DevTools\\TestFramework\\TestLibraries\\Assert",
+                        "..\\..\\Modules\\DevTools\\TestFramework\\TestLibraries\\Permissions Mock",
+                        "..\\..\\Modules\\DevTools\\TestFramework\\TestLibraries\\Variable Storage",
+                        "..\\..\\Modules\\DevTools\\TestFramework\\TestRunner",
+                        "..\\..\\Modules\\System Test Libraries",
+                        "..\\..\\Modules\\System Tests",
                         "AMCBanking365Fundamentals\\test",
                         "AnonymizedDataSharing\\test",
                         "APIV1\\test",

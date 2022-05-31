@@ -16,3 +16,10 @@ if ($filename -like "Microsoft_System Application_*.*.*.*.app") {
     $parameters.appFile = Join-Path $packagesFolder "Microsoft_Application.app"
     Publish-BcContainerApp @parameters
 }
+elseif ($filename -like "Microsoft_System Application Test_*.*.*.*.app") {
+    $packagesFolder = Join-Path ([System.IO.Path]::GetDirectoryName($parameters.appFile)) "..\.packages" -Resolve
+
+    Write-Host "Publishing Tests-TestLibraries"
+    $parameters.appFile = Join-Path $packagesFolder "Microsoft_Tests-TestLibraries.app"
+    Publish-BcContainerApp @parameters
+}
